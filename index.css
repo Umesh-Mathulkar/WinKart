@@ -1,0 +1,85 @@
+body{
+    background-color: #f0f0f0;
+}
+
+.navbar {
+    background-color: #2874f0;
+    height: 55px;
+    width: 100%;
+}
+.categories{
+    height: 130px;
+    background-color: white;
+}
+.caraousel{
+    height: 280px;
+    background-color: black;
+}
+.categories img{
+    height: 5vw;
+}
+.cat{
+    text-align: center;
+}
+.categories a{
+    text-decoration: none;
+    color: black;
+}
+.log{
+    width: 100px;
+}
+.electronicsMain a{
+    color: green;
+}
+.electronicsMain{
+    text-align: center;
+    box-shadow: 2px 2px 20px 1px gray;
+    padding: 5%;
+}
+.electronicsMain img{
+    padding: 12%;
+}
+.heightEle{
+    height: 230px;
+}
+.eleImage{
+    background: linear-gradient(to top,rgba(255,0,0,0), rgb(255, 255, 255)), url(./images/tv.png) no-repeat;
+    height: 130px;
+    background-position: center;
+    background-size: contain;
+}
+.beautyImage {
+    background: linear-gradient(to top,rgba(255,0,0,0), rgb(255, 255, 255)), url(./images/string.png) no-repeat;
+    height: 130px;
+    background-position: center;
+    background-size: contain;
+}
+.toysMain img{
+    padding: 12%;
+}
+.toysMain{
+    padding: 5%;
+}
+.winter{
+    text-align: center;
+    box-shadow: 2px 2px 20px 1px gray;
+    padding: 5%;
+}
+.winter a{
+    color: green;
+}
+footer a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+footer h6{
+    color: grey;
+}
+footer{
+    background-color: #172337;
+    padding: 3%;
+}
+footer p{
+    color: white;
+}
