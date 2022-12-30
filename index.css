@@ -13,7 +13,9 @@ body{
 }
 .caraousel{
     height: 280px;
-    background-color: black;
+    border: 1px solid black;
+    border-radius: 70px;
+    box-shadow: 2px 2px 20px 1px gray;
 }
 .categories img{
     height: 5vw;
@@ -82,4 +84,8 @@ footer{
 }
 footer p{
     color: white;
+}
+.caraousel a{
+    display: flex;
+    justify-content: center;
 }
