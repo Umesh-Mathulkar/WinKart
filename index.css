@@ -89,3 +89,25 @@ footer p{
     display: flex;
     justify-content: center;
 }
+@media only screen and (max-width:1000px) {
+    .navbar{height: 120px;
+
+    }
+    .navbar button{
+        margin-bottom: 10px;
+        
+    }
+    .navbar form{
+        text-align: center!important;
+    }
+    .categories{
+        height: 250px;
+    }
+    
+}
+@media screen and (max-width: 575px) {
+    .categories img{
+        display: none;
+    }
+    
+}
