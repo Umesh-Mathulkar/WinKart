@@ -90,7 +90,7 @@ footer p{
     justify-content: center;
 }
 @media only screen and (max-width:1000px) {
-    .navbar{height: 120px;
+   .navbar{height: 120px;
 
     }
     .navbar button{
@@ -99,7 +99,7 @@ footer p{
     }
     .navbar form{
         text-align: center!important;
-    }
+    } 
     .categories{
         height: 250px;
     }
@@ -109,5 +109,7 @@ footer p{
     .categories img{
         display: none;
     }
-    
+    .navbar{
+        height: 150px;
+    }
 }
