@@ -17,16 +17,19 @@
         crossorigin="anonymous"></script>
 </head>
 
-<body>
+<body onload="geolocation()">
     <div class="navbar">
         <div class="logo  container d-flex">
             <h3 style="color: white;">WinKart</h3>
+            <div id="out"></div>
+            <div id="weather"></div>
             <button class="btn btn-light log">Login</button>
             <button class="btn btn-success">Create an Account</button>
             <form class="d-flex" role="search">
                 <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
                 <button class="btn btn-outline-light" type="submit">Search</button>
             </form>
+            <button id="mode" class="btn btn-outline-dark" onclick="toggleMode(this)">Dark Mode</button>
 
         </div>
     </div>
@@ -296,5 +299,7 @@
 
 
 </body>
+
+<script src="winJs.js"></script>
 
 </html>

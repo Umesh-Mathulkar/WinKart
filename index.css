@@ -113,3 +113,7 @@ footer p{
         height: 150px;
     }
 }
+.darkMode{
+    background-color: rgb(39, 39, 39);
+    color: white;
+}
